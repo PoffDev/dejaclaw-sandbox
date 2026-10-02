@@ -1,0 +1,20 @@
+# Secrets and credentials: this repo is public, so none of these may ever be committed.
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.secret*
+*.token
+id_rsa*
+id_ed25519*
+.npmrc
+.netrc
+
+# Dependencies, build output and noise
+node_modules/
+dist/
+build/
+coverage/
+*.log
+.DS_Store
